@@ -5,7 +5,7 @@
   "description": "Shows price history for order costs on tweakers.net",
   "homepage_url": "https://github.com/boerdereinar/tweakers-price-history",
   "icons": {
-    "48": "favicon.ico"
+    "48": "icon.png"
   },
 
   "permissions": [
@@ -30,7 +30,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "@tweakerspricehistory",
-      "strict_min_version": "53.0"
+      "strict_min_version": "57.0"
     }
   }  
 }
