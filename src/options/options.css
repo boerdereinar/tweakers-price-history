@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    padding: 0.5em 0;
+    background: var(--in-content-box-background);
+    color: var(--in-content-text-color);
+}
+
+.label {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+
+.toggle-button {
+    vertical-align: middle;
+    min-height: 0!important;
+}
