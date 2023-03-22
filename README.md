@@ -1,5 +1,5 @@
 # Tweakers Price History
-Shows price history for order costs on tweakers.net.
+Firefox extension that shows price history for order costs on tweakers.net.
 
 ## Screenshots
 ### Incomplete data hidden
