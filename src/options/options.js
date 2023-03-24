@@ -1,8 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    browser.storage.sync.get("hideIncompleteData").then(result => {
-        console.log(result);
-        document.getElementById("hideIncompleteData").setAttribute("aria-pressed", result.hideIncompleteData && true);
+    browser.storage.sync.get().then(result => {
+        document.getElementById("hideIncompleteData").setAttribute("aria-pressed", result.hideIncompleteData !== false);
     });
 
     document.getElementById("options").addEventListener("submit", () => {
@@ -16,4 +15,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
         browser.storage.sync.set({ [e.target.id]: newValue });
     }));
-})
+});

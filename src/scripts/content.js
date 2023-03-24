@@ -3,7 +3,7 @@
 const retrieving = browser.storage.sync.get();
 
 retrieving.then(options => {
-    const hideIncompleteData = options.hideIncompleteData && true;
+    const hideIncompleteData = options.hideIncompleteData !== false;
 
     // 1. Retrieve all products
     const elements = Array.from(document.querySelectorAll(".priceTable tr:not(.nocost) > :nth-child(2) > p.ellipsis > a"))

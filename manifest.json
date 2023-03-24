@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tweakers Price History",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Shows price history for order costs on tweakers.net",
   "homepage_url": "https://github.com/boerdereinar/tweakers-price-history",
   "icons": {
